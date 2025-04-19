@@ -1,4 +1,4 @@
-# YouTube Trending Videos Analysis
+# Predictive Analytics & Optimization System for YouTube Content Success
 
 ## Project Overview
 
