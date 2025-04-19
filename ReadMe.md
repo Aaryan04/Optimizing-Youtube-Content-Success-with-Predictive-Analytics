@@ -491,7 +491,8 @@ Potential extensions of this analysis:
 12. Integration with content planning tools and calendars
 
 ## Author
-[Your Name]
+- Aaryan Akshay Shah
+- Maehika Hegde
 
 ## License
 [Specify License]
