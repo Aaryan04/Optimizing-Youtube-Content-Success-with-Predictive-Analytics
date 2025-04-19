@@ -13,7 +13,7 @@ The project uses the `youtube_trending_videos_global.csv` dataset, which contain
 - Engagement metrics (views, likes, comments)
 - Trending information (trending date, trending country)
 
-**Dataset Size:** 2,058,048 rows × 26 columns (dataset size is more than 3.5GB hence download it from [Kaggle]([https://website-name.com](https://www.kaggle.com/datasets/canerkonuk/youtube-trending-videos-global)))
+**Dataset Size:** 2,058,048 rows × 26 columns (dataset size is more than 3.5GB hence download it from [Kaggle]([https://website-name.com](https://www.kaggle.com/datasets/canerkonuk/youtube-trending-videos-global))
 
 ## Project Architecture
 
