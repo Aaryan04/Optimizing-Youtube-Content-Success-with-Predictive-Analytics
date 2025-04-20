@@ -426,41 +426,77 @@ requests
 
 ## File Structure
 ```
-youtube_trending_analysis/
+YOUTUBE_TRENDING_VIDEO_ANALYSIS/
 │
-├── data/
-│   └── youtube_trending_videos_global.csv
+├── ab_test_results/
+│   ├── numbers_in_title_test_20250418_175434.csv
+│   ├── numbers_in_title_test_20250418_175434.png
+│   ├── posting_time_test_20250418_180433.csv
+│   ├── posting_time_test_20250418_180743.csv
+│   ├── posting_time_test_20250419_135324.csv
+│   ├── questions_in_title_test_20250418_175435.csv
+│   ├── questions_in_title_test_20250418_175435.png
+│   ├── title_length_test_20250418_173845.csv
+│   ├── title_length_test_20250418_173845.png
+│   ├── title_length_test_20250418_175434.csv
+│   └── title_length_test_20250418_175434.png
 │
-├── notebooks/
-│   ├── 01_data_cleaning.ipynb
-│   ├── 02_exploratory_analysis.ipynb
-│   ├── 03_correlation_analysis.ipynb
-│   ├── 04_time_series_analysis.ipynb
-│   ├── 05_view_count_prediction.ipynb
-│   ├── 06_category_classification.ipynb
-│   └── 07_deep_learning_models.ipynb
-│
-├── src/
-│   ├── __init__.py
-│   ├── data_preprocessing.py
-│   ├── feature_engineering.py
-│   ├── visualization.py
-│   ├── ml_models.py
-│   └── deep_learning.py
+├── code/
+│   ├── code.ipynb
+│   ├── content_ab_testing.py
+│   ├── data_analysis.ipynb
+│   ├── Predicting popularity (1).ipynb
+│   └── Strategy.ipynb
 │
 ├── models/
-│   ├── trending_prediction_model.pkl
-│   ├── category_classifier.pkl
-│   └── title_lstm_model.h5
+│   └── trending_prediction_model.pkl
 │
-├── output/
-│   ├── figures/
-│   ├── predictions/
-│   └── ab_test_results/
+├── visualizations/
+│   ├── wordcloud_images/
+│   │   ├── description_wordcloud.png
+│   │   ├── title_wordcloud.png
+│   │   ├── titles_category_Entertainment.png
+│   │   ├── titles_category_Gaming.png
+│   │   ├── titles_category_Music.png
+│   │   ├── titles_category_People & Blogs.png
+│   │   └── titles_category_Sports.png
+│   │
+│   ├── category_confusion_matrix_gpu.png
+│   ├── category_confusion_matrix_improved.png
+│   ├── category_confusion_matrix.png
+│   ├── category_country_heatmap.png
+│   ├── category_learning_curve.png
+│   ├── category_over_time.png
+│   ├── channel_age_vs_views.png
+│   ├── channel_size_vs_views.png
+│   ├── correlation_matrix.png
+│   ├── days_to_trending.png
+│   ├── engagement_metrics.png
+│   ├── engagement_time_series.png
+│   ├── feature_importance_category_robust.png
+│   ├── feature_importance_category.png
+│   ├── feature_importance_views_gb.png
+│   ├── feature_importance_views_improved.png
+│   ├── feature_importance_views.png
+│   ├── model_comparison.png
+│   ├── publish_day.png
+│   ├── publish_hour.png
+│   ├── tag_count.png
+│   ├── title_lstm_training_gpu.png
+│   ├── title_lstm_training.png
+│   ├── title_wordcloud.png
+│   ├── top_categories.png
+│   ├── top_channels.png
+│   ├── trending_by_country.png
+│   ├── trending_over_time.png
+│   ├── trending_videos_time_series_fixed.png
+│   ├── video_duration_2.png
+│   ├── video_duration_animated_uncapped.png
+│   ├── video_duration_analysis.png
+│   └── view_count_prediction_scatter.png
 │
-├── youtube_monitoring.py
-├── youtube_ab_testing.py
-├── requirements.txt
+├── trending_predictions_20250406_181304.csv
+├── youtube_trending_videos_global.csv
 └── README.md
 ```
 
