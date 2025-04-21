@@ -166,6 +166,8 @@ The analysis includes both original dataset features and engineered features:
 - **Comment Count**: Evening posts (5 PM - 9 PM) receive 82.9% more comments than morning posts
 - **Engagement Ratios**: Evening posts show higher engagement ratios (likes per view: +2.6%, comments per view: +20.8%)
 - **Posting Distribution**: Most creators post around 12-1 PM, but highest views occur at 6-7 PM (potentially indicating an opportunity)
+![image](https://github.com/user-attachments/assets/ce9310f6-0407-419b-9dc7-23bf9f81adb8)
+
 
 ## Machine Learning Models
 
