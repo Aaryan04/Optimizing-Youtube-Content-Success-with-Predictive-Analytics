@@ -1,4 +1,4 @@
-# Predictive Analytics & Optimization System for YouTube Content Success
+# Opitimizing YouTube Content Success with Predictive Analytics
 
 ## Project Overview
 
