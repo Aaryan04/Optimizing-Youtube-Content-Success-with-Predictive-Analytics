@@ -83,14 +83,25 @@ The analysis includes both original dataset features and engineered features:
 - Engagement metrics analysis (views, likes, comments)
 - Time-to-trending analysis
 
+![image](https://github.com/user-attachments/assets/cc2e1775-61d3-4fa1-b82e-26bf942d04fb)
+![image](https://github.com/user-attachments/assets/07eab94a-b72f-42fe-a585-67a8f490345e)
+![image](https://github.com/user-attachments/assets/38d3d7db-97ca-4a05-ae73-b90f14e7a38d)
+![image](https://github.com/user-attachments/assets/32d70653-a34b-4d13-9874-ce3daafaa797)
+![image](https://github.com/user-attachments/assets/4b8519f1-af9f-4ea9-8fec-c3cf4aca9282)
+![image](https://github.com/user-attachments/assets/73037301-3806-4dcd-b9e5-4291779c0ed2)
+![image](https://github.com/user-attachments/assets/bf4d8202-7bb7-4b85-bdc0-6f7e94c12b7a)
+
+
 ### 3. Correlation Analysis
 - Correlation between engagement metrics
 - Relationship between channel metrics and video performance
 - Impact of content characteristics on engagement
+![image](https://github.com/user-attachments/assets/33f0fd05-d843-419d-a3c2-4c0bfb829359)
 
 ### 4. Time Series Analysis
 - Category popularity trends over time
 - Engagement patterns over time
+![image](https://github.com/user-attachments/assets/5864de21-439a-448d-a227-ee2c202f1ccf)
 
 ### 5. Predictive Modeling
 - View count prediction using Random Forest Regressor
